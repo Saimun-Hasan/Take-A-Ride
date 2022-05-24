@@ -1,10 +1,122 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script type="text/javascript" src="/admin/css/node_modules/jquery/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready( function () {
+
+        $.ajaxSetup({
+        headers: {
+        'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+        });
+
+        $('#cars-table').DataTable({
+        processing: true,
+        serverSide: true,
+        ajax: "{{ url('cars') }}",
+        columns: [
+            {data: 'id', name: 'id', 'visible': false},
+            { data: 'action', name: 'action', orderable: false},
+            { data: 'car_name', name: 'car_name' },
+            { data: 'car_platenum', name: 'car_platenum' },
+            { data: 'car_description', name: 'car_description' },
+            { data: 'car_price', name: 'car_price' },
+            { data: 'created_at', name: 'created_at' },
+        ],
+        order: [[0, 'desc']]
+        });
+
+
+        $('#add-new-car').click(function () {
+        $('#update-car').trigger("reset");
+        $('#add-car').html("Add Car");
+        $('#car-modal').modal('show');
+        });
+
+        $('body').on('click', '.edit', function () {
+
+        var id = $(this).data('id');
+
+        // ajax
+        $.ajax({
+        type:"POST",
+        url: "{{ url('edit-car') }}",
+        data: { id: id },
+        dataType: 'json',
+        success: function(response){
+        $('#add-car').html("Edit Car");
+        $('#car-modal').modal('show');
+        $('#id').val(response.id);
+        $('#car_name').val(response.data['car_name']);
+        $('#car_platenum').val(response.data['car_platenum']);
+        $('#car_price').val(response.data['car_price']);
+        $('#car_description').val(response.data['car_description']);
+        }
+        });
+
+        });
+
+        $('body').on('click', '.delete', function () {
+
+        if (confirm("Delete Record?") == true) {
+        var id = $(this).data('id');
+
+        // ajax
+        $.ajax({
+        type:"POST",
+        url: "{{ url('delete-car') }}",
+        data: { id: id },
+        dataType: 'json',
+        success: function(response){
+
+        var oTable = $('#cars-table').dataTable();
+        oTable.fnDraw(false);
+        }
+        });
+        }
+
+        });
+
+        $('body').on('click', '#btn-save', function (event) {
+
+        var id = $("#id").val();
+        var car_name = $("#car_name").val();
+        var car_platenum = $("#car_platenum").val();
+        var car_price = $("#car_price").val();
+        var car_description = $("#car_description").val();
+
+        $("#btn-save").html('Please Wait...');
+        $("#btn-save"). attr("disabled", true);
+
+        // ajax
+        $.ajax({
+        type:"POST",
+        url: "{{ url('add-update-car') }}",
+        data: {
+        id:id,
+        car_name:car_name,
+        car_platenum:car_platenum,
+        car_price:car_price,
+        car_description:car_description,
+        },
+        dataType: 'json',
+        success: function(response){
+        $("#car-modal").modal('hide');
+        var oTable = $('#cars-table').dataTable();
+        oTable.fnDraw(false);
+        $("#btn-save").html('Submit');
+        $("#btn-save"). attr("disabled", false);
+        }
+        });
+
+        });
+        });
+    </script>
 
     <!-- Bootstrap tether Core JavaScript -->
-    <script type="text/javascript" src="/admin/css/node_modules/popper/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.5/umd/popper.min.js" integrity="sha512-8cU710tp3iH9RniUh6fq5zJsGnjLzOWLWdZqBMLtqaoZUA6AWIE34lwMB3ipUNiTBP5jEZKY95SfbNnQ8cCKvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script type="text/javascript" src="/admin/css/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- slimscrollbar scrollbar JavaScript -->
@@ -22,50 +134,6 @@
 
     <!--Custom JavaScript -->
     <script type="text/javascript" src="/admin/js/custom.js"></script>
-
-    <!-- This is data table -->
-    <script type="text/javascript" src="/admin/css/node_modules/datatables.net/js/jquery.dataTables.js"></script>
-    <script type="text/javascript" src="/admin/css/node_modules/datatables.net-bs4/js/dataTables.responsive.min.js"></script>
-    <!-- start - This is for export functionality only -->
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.flash.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.print.js"></script>
-    <!-- end - This is for export functionality only -->
-    <script>
-        $(function () {
-            $('#cars-table').DataTable();
-            var table = $('#example').DataTable({
-                "columnDefs": [{
-                    "visible": false,
-                    "targets": 2
-                }],
-                "order": [
-                    [2, 'asc']
-                ],
-                "displayLength": 25,
-                "drawCallback": function (settings) {
-                    var api = this.api();
-                    var rows = api.rows({
-                        page: 'current'
-                    }).nodes();
-                    var last = null;
-                    api.column(2, {
-                        page: 'current'
-                    }).data().each(function (group, i) {
-                        if (last !== group) {
-                            $(rows).eq(i).before('<tr class="group"><td colspan="5">' + group + '</td></tr>');
-                            last = group;
-                        }
-                    });
-                }
-            });
-        });
-
-    </script>
 
     <!-- ============================================================== -->
     <!-- Multiselect -->

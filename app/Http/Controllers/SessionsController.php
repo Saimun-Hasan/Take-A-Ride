@@ -33,6 +33,6 @@ class SessionsController extends Controller
     {
         auth()->logout();
 
-        return redirect ('/home')->with('error','You have logged out successfully!');
+        return redirect ('/')->with('error','You have logged out successfully!');
     }
 }

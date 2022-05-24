@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="/admin/img/favicon.png">
 
@@ -18,8 +19,7 @@
     <link rel="stylesheet" type="text/css" href="/admin/css/style.css">
 
     <!-- DataTable CSS -->
-    <link rel="stylesheet" type="text/css" href="/admin/css/node_modules/datatables.net-bs4/css/dataTables.bootstrap4.css">
-    <link rel="stylesheet" type="text/css" href="/admin/css/node_modules/datatables.net-bs4/css/responsive.dataTables.min.css">
+    <link  href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" rel="stylesheet">
 
     <!-- Multiselect -->
     <link rel="stylesheet" type="text/css" href="/admin/css/node_modules/bootstrap-datepicker/bootstrap-datepicker.min.css"/>
@@ -48,7 +48,6 @@
     <link rel="stylesheet" href="/admin/css/node_modules/dropify/dist/css/dropify.min.css">
     <link href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
 
