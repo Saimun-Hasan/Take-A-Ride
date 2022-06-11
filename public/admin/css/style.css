@@ -18776,7 +18776,7 @@ ol li {
   margin: 5px 0; }
 
 /*******************
-Padding margin property 
+Padding margin property
 *******************/
 html body .m-t-5 {
   margin-top: 5px; }
@@ -19436,7 +19436,7 @@ Main sidebar
 ******************/
 .left-sidebar {
   position: absolute;
-  width: 220px;
+  width: 150px;
   height: 100%;
   top: 0px;
   z-index: 20;
@@ -19967,7 +19967,7 @@ Form summernote
 .label {
   display: inline-block; }
 
-/*============================================================== 
+/*==============================================================
 Form addons page
 ============================================================== */
 /*Bootstrap select*/
@@ -20014,7 +20014,7 @@ Form addons page
 .input-form .btn {
   padding: 8px 12px; }
 
-/*============================================================== 
+/*==============================================================
 Form Material page
  ============================================================== */
 /*Material inputs*/
@@ -20056,13 +20056,13 @@ Form Material page
     border-bottom: 1px solid #fb9678; }
 
 /*******************
-Form validation error 
+Form validation error
 ******************/
 .error .help-block {
   color: #e46a76; }
 
 /*******************
-File Upload 
+File Upload
 ******************/
 .fileupload {
   overflow: hidden;
@@ -20921,8 +20921,8 @@ icons path
   font-family: 'Material Design Icons';
   src: url("fonts/materialdesignicons-webfont.ttf") format("truetype"); }
 
-/*============================================================== 
- For all pages 
+/*==============================================================
+ For all pages
  ============================================================== */
 #main-wrapper {
   width: 100%;
@@ -20942,7 +20942,7 @@ icons path
   background: #fff;
   padding: 14px 10px;
   box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
-  margin: 0 -25px 25px -25px; }
+  margin: 30px -25px 25px -25px; }
   .page-titles h4 {
     margin-bottom: 0px;
     margin-top: 0px; }
@@ -21988,7 +21988,7 @@ html body .navbar-dark .mailbox .message-center {
     width: 100%;
     min-height: 380px; }
 
-/*============================================================== 
+/*==============================================================
 widget-chart-page product review
  ============================================================== */
 .product-review {
@@ -22044,18 +22044,18 @@ Author: Wrappixel
 
 File: scss
 */
-/*============================================================== 
- For Desktop & above all (1650px) 
+/*==============================================================
+ For Desktop & above all (1650px)
  ============================================================== */
-/*============================================================== 
- For Laptop & above all (1370px) 
+/*==============================================================
+ For Laptop & above all (1370px)
  ============================================================== */
-/*-- ============================================================== 
- Small Desktop & above all (1024px) 
+/*-- ==============================================================
+ Small Desktop & above all (1024px)
  ============================================================== */
 @media (min-width: 1024px) {
   .page-wrapper, .footer {
-    margin-left: 220px; } }
+    margin-left: 150px; } }
 
 @media (max-width: 1023px) {
   .inbox-center a {
@@ -22065,12 +22065,12 @@ File: scss
     .d-flex.no-block {
       display: flex !important; } }
 
-/*-- ============================================================== 
- Ipad & above all(768px) 
+/*-- ==============================================================
+ Ipad & above all(768px)
  ============================================================== */
 @media (min-width: 768px) {
   .navbar-header {
-    width: 220px;
+    width: 150px;
     flex-shrink: 0; }
     .navbar-header .navbar-brand {
       padding-top: 0px; }
@@ -22080,8 +22080,8 @@ File: scss
     display: inline-block;
     line-height: 40px; } }
 
-/*-- ============================================================== 
- Phone and below ipad(767px) 
+/*-- ==============================================================
+ Phone and below ipad(767px)
  ============================================================== */
 @media (max-width: 767px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {

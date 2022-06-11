@@ -6,32 +6,29 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>RTP</h3>
+            <img src="/users/img/logo.png" alt="" class="mb-3" style="height: 85px; margin-top:-10px;">
             <p>
-              <strong>Location:</strong> 7037 Rose Ave Suite <br>
-              B Orlando<br>
-              FL 32810 <br>
-              <strong>Phone:</strong> 888-503-1636<br>
-              <strong>Email:</strong> support@reviewthatplace.com<br>
+              <strong>Location:</strong> 7 51 Siddheswari Rd,<br> Dhaka 1217<br>
+              <strong>Phone:</strong> 02-58315626<br>
+              <strong>Email:</strong> support@takearide.com<br>
             </p>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)">Resources</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#resources">Services</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Compliance</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://rtpmedsol.rtpdemo.com/demoforms/baa" target="_blank">BAA</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://rtpmedsol.rtpdemo.com/demoforms/hipaa" target="_blank">HIPAA</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="https://rtpmedsol.rtpdemo.com/demoforms/nondisclosure" target="_blank">Nondisclosure</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)" target="_blank">Privacy Policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)" target="_blank">Terms & Conditions</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="javascript:(void)" target="_blank">FAQS</a></li>
             </ul>
           </div>
 
@@ -51,16 +48,16 @@
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
-          &copy; 2022 Copyright: <strong><span><a style="color: #124265;" href="https://rtpmedicalsolution.com/">RTPMedicalSolution.com</a></span></strong>
+          &copy; 2022 Copyright: <strong><span><a style="color: #124265;" href="javascript:(void)">UAS</a></span></strong>
         </div>
 
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="javascript:(void)" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="javascript:(void)" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="javascript:(void)" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="javascript:(void)" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="javascript:(void)" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
 

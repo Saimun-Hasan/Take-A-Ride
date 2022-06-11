@@ -11,7 +11,7 @@
     <!-- Favicon icon -->
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.png">
 
-    <title> Chalao</title>
+    <title> Take A Ride</title>
 
     <!-- page css -->
     <link href="/admin/css/pages/login-register-lock.css" rel="stylesheet">
@@ -27,7 +27,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label"> Chalao</p>
+            <p class="loader__label"> Take A Ride</p>
         </div>
     </div>
     <!-- ============================================================== -->

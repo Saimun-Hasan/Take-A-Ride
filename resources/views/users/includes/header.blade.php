@@ -2,13 +2,8 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:support@chalao.com">support@chalao.com</a>
-        <i class="bi bi-phone"></i> <a href="tel:+8801959523513">+8801959523513</a>
-      </div>
-      <div class="d-none d-lg-flex align-items-center">
-       <div class="contact-info d-flex align-items-center">
-         <i class="bi bi-clock"></i> <a href="javascript:(void)">Mon-Fri:9:00AM - 05:00PM</a>
-       </div>
+        <i class="bi bi-envelope"></i> <a href="mailto:support@takearide.com">support@takearide.com</a>
+        <i class="bi bi-phone"></i> <a href="tel:+02-58315626">+02-58315626</a>
       </div>
     </div>
   </div>
@@ -18,32 +13,51 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="/users/img/rtplogo.png" alt="rtplogo" class="img-fluid lazyload"></a>
+      <a href="index.html" class="logo me-auto"><img src="/users/img/logo.png" alt="rtplogo" class="img-fluid lazyload"></a>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#resources">Resources</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#insurances">Insurance</a></li>
+          <li><a class="nav-link scrollto" href="#resources">Services</a></li>
+          <li><a class="nav-link scrollto" href="#resources">Pricing</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 
           @auth
 
-            <li><span class="font-weight-bold">Welcome {{ auth()->user()->name }}</span></li>
-            <form action="/logout" method="POST">
-                @csrf
+            <li></li>
+                <form action="/logout" method="POST">
+                    @csrf
 
-                <button type="submit">logout</button>
-            </form>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-primary"><span class="font-weight-bold">{{ auth()->user()->name }}</span></button>
+                        <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu">
 
+                            @if(auth()->User()->username === 'Saimun_Hasan')
+                                <button class="dropdown-item" type="button"  onclick="location.href='{{ route ('cars') }}';">Dashboard</button>
+                            @endif
+                            <button class="dropdown-item" type="button"  onclick="location.href='{{ route ('profile') }}';">My Profile</button>
+                            <button class="dropdown-item" type="submit">Logout</button>
+                        </div>
+                    </div>
+                </form>
             @else
 
-            <li><a class="btn btn-primary text-white float-right" href="{{ route ('signup') }}">Sign Up</a></li>
-            <li><a class="btn btn-primary text-white float-right" href="{{ route ('login') }}">Login</a></li>
+            <li>
+                <div class="btn-group">
 
+                    <button type="button" class="btn btn-primary" onclick="location.href='{{ route ('signup') }}';">Sign Up</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" onclick="location.href='{{ route ('login') }}';">Login</a>
+                    </div>
+                </div>
+            </li>
           @endauth
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -56,8 +70,13 @@
 <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1>Welcome to Chalao</h1>
-      <h2>We Offer The Best Cars In Affordable Prices!</h2>
+      <h1 class="text-white font-weight-bold">
+            Need A<br>
+            <span class="car-text">
+                Car ?
+            </span>
+        </h1>
+      <h2 class="text-white font-weight-bold">We Offer The Best Cars In Affordable Prices!</h2>
       <a href="tel:+8801959523513" class="btn-get-started scrollto">Call Now</a>
     </div>
   </section>

@@ -16,10 +16,9 @@ use App\Http\Controllers\UserEditController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 //Users-Route
-Route::get('/', function () {
-    return view('users.index');
-})-> name('home');
+Route::get('/', function () { return view('users.index'); })-> name('home');
 
 
 
@@ -40,4 +39,4 @@ Route::post('edit-car', [DataTablesController::class, 'edit']);
 Route::post('delete-car', [DataTablesController::class, 'destroy']);
 
 Route::get('/profile', [UserEditController::class, 'index'])-> middleware ('auth')-> name('profile');
-Route::get('/profile', [UserEditController::class, 'update'])-> middleware ('auth')-> name('profile');
+/* Route::get('/profile', [UserEditController::class, 'update'])-> middleware ('auth')-> name('profile'); */

@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Chalao</title>
+    <title>Take A Ride</title>
     <!-- Favicons -->
-    <link href="users/img/favicon.webp" rel="icon">
+    <link href="users/img/logo.png" rel="icon">
     <!-- Vendor CSS Files -->
     <link href="/users/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="/users/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

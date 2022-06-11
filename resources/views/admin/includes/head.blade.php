@@ -11,9 +11,9 @@
     <meta name="author" content="">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Favicon icon -->
-    <link rel="icon" type="image/png" sizes="16x16" href="/admin/img/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/admin/img/logo.png">
 
-    <title> Chalao</title>
+    <title> Take A Ride</title>
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="/admin/css/style.css">
@@ -57,7 +57,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader__figure"></div>
-            <p class="loader__label"> Chalao</p>
+            <p class="loader__label"> Take A Ride</p>
         </div>
     </div>
 

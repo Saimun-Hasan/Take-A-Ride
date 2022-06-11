@@ -19,7 +19,7 @@ class SessionsController extends Controller
 
         if (auth()->attempt($attributes))
         {
-            return redirect('/cars')->with('message','Welcome back!');
+            return redirect('/')->with('message','Welcome back!');
         }
 
         return back()

@@ -71,7 +71,7 @@
                         </div>
 
                         <div class="col-xl-3 col-lg-3 col-md-12 col-sm-6">
-                            <button type="button" class="col-xl-3 col-md-12 btn btn-success mt-4"> Apply</button>
+                            <button type="button" class="col-xl-3 col-md-12 btn btn-success" style="margin-top: 30px !important;"> Apply</button>
                         </div>
 
                         <div class="col-xl-12 col-lg-3 col-md-12 col-sm-6">

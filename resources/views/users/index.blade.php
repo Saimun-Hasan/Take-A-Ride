@@ -1,723 +1,527 @@
 @extends('users/layout')
 
 @section('main-content')
+<!-- ======= Main Section ======= -->
 <main id="main">
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us">
-      <div class="container">
+        <section id="why-us" class="why-us">
+            <div class="container">
 
-        <div class="row">
-          <div class="col-lg-4 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Do You Need An Appointment?</h3>
-              <p>
-                Skip the waiting on the phone and simply request an appointment onlineSkip the waiting on the phone and simply request an appointment online
-              </p>
-              <div class="text-center">
-                <a href="#" class="more-btn" id="appointment">Make An Appointment <i class="bx bx-chevron-right"></i></a>
-              </div>
+                <div class="row">
+                <div class="col-lg-4 d-flex align-items-stretch">
+                    <div class="content">
+                    <h3>Having Trouble Renting A Car?</h3>
+                    <p>
+                        Skip the waiting on the phone and simply request a car online.
+                    </p>
+                    <div class="text-left">
+                        <a href="javascript:(void)" class="more-btn" id="appointment">Browse Cars <i class="bx bx-chevron-right"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 d-flex align-items-stretch">
+                    <div class="icon-boxes d-flex flex-column justify-content-center">
+                    <div class="row">
+                        <div class="col-xl-4 d-flex align-items-stretch">
+                        <div class="icon-box mt-4 mt-xl-0">
+                            <img src="/users/img/icons/car_1.png" alt="" class="img-fluid mb-3">
+                            <h4>Need a Car in Dhaka?</h4>
+                            <p>Renting a Car is just few clicks away!</p>
+                            <div class="text-center">
+                                <a href="javascript:(void)" class="custom-btn" id="appointment">Check Prices</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-xl-4 d-flex align-items-stretch">
+                        <div class="icon-box mt-4 mt-xl-0">
+                            <img src="/users/img/icons/money_1.png" alt="" class="img-fluid mb-3">
+                            <h4>Offers & <br>Packages</h4>
+                            <p>Our Car Rental packages that will cover you well!</p>
+                            <div class="text-center">
+                                <a href="javascript:(void)" class="custom-btn" id="appointment">More Details</a>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="col-xl-4 d-flex align-items-stretch">
+                        <div class="icon-box mt-4 mt-xl-0">
+                            <img src="/users/img/icons/car_2.png" alt="" class="img-fluid mb-3">
+                            <h4>Make Money From Your Car</h4>
+                            <p>Rent your<br> car with us</p>
+                            <div class="text-center">
+                                <a href="javascript:(void)" class="custom-btn" id="appointment">Register Now!</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div><!-- End .content-->
+                </div>
+                </div>
+
             </div>
-          </div>
-          <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-receipt"></i>
-                    <h4><a onclick=" window.open('https://rtpmedsol.rtpdemo.com/demoforms/mfamnewpt', '_blank'); return false;">New Patient Forms</a></h4>
-                    <p>If you are a new patient and save time on your first visit by filling out the New Patient Packet here</p>
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-cube-alt"></i>
-                    <h4><a>Patient Portal</a></h4>
-                    <p>Access for current patients to their Patient Portal. Access your medical records and much more</p>
-                  </div>
-                </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
-                  <div class="icon-box mt-4 mt-xl-0">
-                    <i class="bx bx-images"></i>
-                    <h4><a onclick=" window.open('https://rtpmedsol.rtpdemo.com/demoforms/survey', '_blank'); return false;">Survey</a></h4>
-                    <p>We’d love to hear about your experience with us.</p>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
-      </div>
-    </section>
+        </section>
     <!-- End Why Us Section -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container-fluid">
+        <section id="about" class="about">
+            <div class="container-fluid">
 
-        <div class="row">
-          <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
-            <a href="#" class="glightbox play-btn mb-4"></a>
-          </div>
+                <div class="row">
+                <div class="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative">
+                    <a href="javascript:(void)" class="glightbox mb-4"></a>
+                </div>
 
-          <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center pt-2 pb-5 px-lg-5">
-            <h4>ABOUT US</h4>
-            <h3>WELCOME TO RTP MEDICAL SOLUTION</h3>
-            <p>We are a leading medical solutions expert in the United States.
-              The idea behind RTP Medical Solution was to develop a long term concept which aims to improve people’s medical care.
-              </p>
+                <div class="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center pt-2 pb-5 px-lg-5">
+                    <h4>ABOUT US</h4>
+                    <h3>Welcome To Take A Ride!</h3>
+                    <p>
+                        Takearide.com is a long-standing online car rental service provider in Bangladesh.
+                        You can rely on us for all of your travel requirements.
+                        In Bangladesh, we have implemented an online booking system, and for the convenience of our customers,
+                        we accept all major credit/debit cards such as American Express, MasterCard, Discover, and Visa.
+                    </p>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-fingerprint"></i></div>
-              <h4 class="title"><a href="javascript:(void)">Trained Physician</a></h4>
-              <p class="description">Our highly trained physicians and front of office carry out only the highest quality medical services that are of the finest standard</p>
+                    <div class="icon-box zoom-hover">
+                    <div class="icon">
+                        <img src="/users/img/icons/bulb_1.png" alt="" class="about-icon">
+                    </div>
+                    <h4 class="title">OUR MISSION</h4>
+                    <p class="description">
+                        To provide safe and dependable car rental services to our valued customers
+                        while maintaining the highest levels of safety, quality, and customer service.
+                    </p>
+                    </div>
+
+                    <div class="icon-box zoom-hover">
+                    <div class="icon">
+                        <img src="/users/img/icons/cog_1.png" alt="" class="about-icon">
+                    </div>
+                    <h4 class="title">OUR VISION</h4>
+                    <p class="description">
+                        To become the first choice of both domestic and international travelers.
+                    </p>
+                    </div>
+
+                    <div class="icon-box zoom-hover">
+                        <div class="icon">
+                        <img src="/users/img/icons/like_1.png" alt="" class="about-icon">
+                        </div>
+                    <h4 class="title">OUR COMMITMENT</h4>
+                    <p class="description">
+                        We are dedicated to providing the best transportation service possible,
+                        with the highest level of safety and comfort for each passenger.
+                    </p>
+                    </div>
+
+                </div>
+                </div>
+
             </div>
-
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-gift"></i></div>
-              <h4 class="title"><a href="javascript:(void)">Extra Care</a></h4>
-              <p class="description">We pride ourselves on getting to see our patients FAST – taking extra care to ensure you land a same-day appointment with a short waiting time</p>
-            </div>
-
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-atom"></i></div>
-              <h4 class="title"><a href="javascript:(void)">24 X 7 Support</a></h4>
-              <p class="description">Please feel free to view our range of insurance options. We also offer a 24-hour service for out of hour questions and emergency services</p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
+        </section>
     <!-- End About Section -->
 
     <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients section-bg pt-0">
+        <section id="clients" class="clients section-bg pt-0">
 
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-         <h2>Follow us</h2>
-        </div>
-        <div class="clients-slider swiper-container">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a href="https://www.facebook.com/RTPMedSol" target="_blank"><img src="users/img/icons/03.png" class="img-fluid lazyload" alt="facebook"></a></div>
-            <div class="swiper-slide"><a href="https://www.google.com/search?rlz=1C1GCEA_enUS878US878&sxsrf=ALeKk0035SPZlyQXIWXYmhwEd0uDnGWMoA%3A1598546999959&ei=N-RHX6SJOu6k_QaZ_angBQ&q=reviewthatplace&oq=reviewthatplace&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzIECAAQDTIGCAAQDRAeMgYIABANEB4yBggAEA0QHjIICAAQCBANEB4yCAgAEAgQDRAeMggIABAIEA0QHjIICAAQCBANEB46BAgAEEc6BwgjELACECc6CAgAEAgQBxAeUL0vWIs4YN05aABwAXgAgAF5iAHvAZIBAzAuMpgBAKABAaoBB2d3cy13aXrAAQE&sclient=psy-ab&ved=0ahUKEwjkgNvQ67vrAhVuUt8KHZl-ClwQ4dUDCA0&uact=5#lrd=0x88e7775087a21f57:0x568749b03f559c74,1" target="_blank"><img src="users/img/icons/04.png" class="img-fluid lazyload" alt="google"></a></div>
-            <div class="swiper-slide"><a href="https://www.youtube.com/user/sansari2" target="_blank"><img src="users/img/icons/13.png" class="img-fluid lazyload" alt="youtube"></a></div>
-            <div class="swiper-slide"><a href="https://www.healthgrades.com/" target="_blank"><img src="users/img/icons/06.png" class="img-fluid lazyload" alt="healthgrades"></a></div>
-            <div class="swiper-slide"><a href="https://www.instagram.com/rtpmedsol/" target="_blank"><img src="users/img/icons/07.png" class="img-fluid lazyload" alt="instagram"></a></div>
-            <div class="swiper-slide"><a href="https://www.ratemds.com/" target="_blank"><img src="users/img/icons/08.png" class="img-fluid lazyload" alt="ratemds"></a></div>
-            <div class="swiper-slide"><a href="https://twitter.com/MedRtp" target="_blank"><img src="users/img/icons/09.png" class="img-fluid lazyload" alt="twitter"></a></div>
-            <div class="swiper-slide"><a href="https://www.vitals.com/" target="_blank"><img src="users/img/icons/10.png" class="img-fluid lazyload" alt="vitals"></a></div>
-            <div class="swiper-slide"><a href="https://www.webmd.com/" target="_blank"><img src="users/img/icons/11.png" class="img-fluid lazyload" alt="webmd"></a></div>
-            <div class="swiper-slide"><a href="https://www.yelp.com/" target="_blank"><img src="users/img/icons/12.jpg" class="img-fluid lazyload" alt="yelp"></a></div>
-            <div class="swiper-slide"><a href="https://www.doctor.com/" target="_blank"><img src="users/img/icons/01.png" class="img-fluid lazyload" alt="doctor"></a></div>
-          </div>
-          <div class="swiper-pagination mt-5"></div>
-        </div>
-      </div>
+            <div class="container p-3" data-aos="fade-up">
+                <div class="section-title">
+                <h2>Top Rented Cars</h2>
+                </div>
+                <div class="clients-slider swiper-container">
+                    <div class="swiper-wrapper align-items-center mb-3">
+                        @php
+                            $cars = \App\Models\Cars::all();
+                        @endphp
 
-    </section>
+                        @foreach($cars as $cars)
+
+                            <div class="swiper-slide" style="margin: 30px !important">
+                                <div class="vehicle-card">
+                                    <div class="details">
+                                        <div class="thumb-gallery">
+                                            <img class="first" src="https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/wp-content/uploads/2017/03/2018-Bugatti-Chiron-117.jpg?crop=1xw:1xh;center,center&resize=480:*" />
+                                        </div>
+                                        <div class="info text-center">
+                                        <h3>{{ $cars -> car_name}}</h3>
+                                            <div class="price">
+                                                <span>Price Starting at</span>
+                                                <h4>{{ $cars -> car_price}}</h4>
+                                            </div>
+                                            <div class="ctas text-center">
+                                                <a href="#" class="btn btn-outline-primary col-12">Rent Now!</a>
+                                                <div style="clear:both;"></div>
+                                            </div>
+                                            <div class="desc">
+                                                <p>{{ $cars -> car_price}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        @endforeach
+
+                    </div>
+                    <div class="swiper-pagination mt-5"></div>
+                </div>
+            </div>
+
+        </section>
     <!-- End Clients Section -->
 
-    <!-- ======= Patient Resource Center Section ======= -->
-    <section id="resources" class="resources">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Patient Resource Center</h2>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Request Forms</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Update Demo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Authorization Release</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">New Patient Forms</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Book Appointments</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Patient Portal</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-6 details order-2 order-lg-1">
-                    <h3>Request Forms</h3>
-                    <p>Save time and request any type of form you need from our office online</p>
-                    <a href="https://rtpmedsol.rtpdemo.com/demoforms/requestform" target="_blank" class="resource-btn">Click Here</a>
-                  </div>
-                  <div class="col-lg-6 text-center order-1 order-lg-2 resource-bg" style="background-image: url(assets/img/resources/section8.1.webp);height: 335px;">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-6 details order-2 order-lg-1">
-                    <h3>Update Demo</h3>
-                    <p>Update your demographics; Address, Phone, Email, etc.</p>
-                    <a href="https://rtpmedsol.rtpdemo.com/demoforms/updatedemo" target="_blank" class="resource-btn">Click Here</a>
-                  </div>
-                  <div class="col-lg-6 text-center order-1 order-lg-2 resource-bg" style="background-image: url(assets/img/resources/section8.2.webp);height: 335px;">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-6 details order-2 order-lg-1">
-                    <h3>Authorization Release</h3>
-                    <p>This forms gives us the ability to obtain or release your medical records</p>
-                    <a href="https://rtpmedsol.rtpdemo.com/demoforms/authorizationrelease" target="_blank" class="resource-btn">Click Here</a>
-                  </div>
-                  <div class="col-lg-6 text-center order-1 order-lg-2 resource-bg" style="background-image: url(assets/img/resources/section8.3.webp);height: 335px;">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-6 details order-2 order-lg-1">
-                    <h3>New Patient Forms</h3>
-                    <p>If you are a new patient and save time on your first visit by filling out the New Patient Packet here</p>
-                    <a href="https://rtpmedsol.rtpdemo.com/demoforms/mfamnewpt" target="_blank" class="resource-btn">Click Here</a>
-                  </div>
-                  <div class="col-lg-6 text-center order-1 order-lg-2 resource-bg" style="background-image: url(assets/img/resources/section8.4.webp);height: 335px;">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-6 details order-2 order-lg-1">
-                    <h3>Book Appointments</h3>
-                    <p>Skip the waiting on the phone and simply request an appointment online</p>
-                    <a href="https://rtpmedsol.rtpdemo.com/demoforms/bookappointment" target="_blank" class="resource-btn">Click Here</a>
-                  </div>
-                  <div class="col-lg-6 text-center order-1 order-lg-2 resource-bg" style="background-image: url(assets/img/resources/section8.5.webp);height: 335px;">
-                  </div>
-                </div>
-              </div>
-              <div class="tab-pane" id="tab-6">
-                <div class="row">
-                  <div class="col-lg-6 details order-2 order-lg-1">
-                    <h3>Patient Portal</h3>
-                    <p>Access for current patients to their Patient Portal. Access your medical records and much more</p>
-                    <a href="#" class="resource-btn">Click Here</a>
-                  </div>
-                  <div class="col-lg-6 text-center order-1 order-lg-2 resource-bg" style="background-image: url(assets/img/resources/section8.6.webp);height: 335px;">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-    <!-- End Patient Resource Center Section -->
-
-    <!-- ======= strip Section ======= -->
-    <section id="paperwork-strip" class="strip">
-      <div class="container-fluid strip-container" data-aos="zoom-in">
-       <div class="row justify-content-center">
-        <div class="col-lg-8 col-11 text-center">
-          <h3><marquee scrollamount="8">Get your message to your patients....reduce staff hours on paperwork.</marquee></h3>
-          <div><h3><a style="color: yellow;">Save Money!</a></h3></div>
-        </div>
-       </div>
-      </div>
-    </section>
-    <!-- End strip Section -->
-
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-        <div class="section-title">
-          <h2>Medical Services</h2>
-        </div>
+        <section id="resources" class="resources">
+            <div class="container">
 
-        <div class="row" id="service1">
-         <ul class="nav nav-tabs row d-flex">
-           <li class="nav-item col-3" data-aos="zoom-in">
-             <a class="nav-link active show" data-bs-toggle="tab" href="#service-1">
-               <i class="ri-gps-line"></i>
-               <h4 class="d-none d-lg-block">Sports Physicals</h4>
-             </a>
-           </li>
-           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-             <a class="nav-link" data-bs-toggle="tab" href="#service-2">
-               <i class="ri-body-scan-line"></i>
-               <h4 class="d-none d-lg-block">Camp Physicals</h4>
-             </a>
-           </li>
-           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
-             <a class="nav-link" data-bs-toggle="tab" href="#service-3">
-               <i class="ri-sun-line"></i>
-               <h4 class="d-none d-lg-block">Including Gyn Services</h4>
-             </a>
-           </li>
-           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-             <a class="nav-link" data-bs-toggle="tab" href="#service-4">
-               <i class="ri-store-line"></i>
-               <h4 class="d-none d-lg-block">School Physicals</h4>
-             </a>
-           </li>
-         </ul>
+                <div class="section-title">
+                <h2>Services</h2>
+                </div>
 
-         <div class="tab-content" data-aos="fade-up">
-           <div class="tab-pane active show" id="service-1">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>Sports Physicals</h3>
-                 <p class="font-italic">
-                  Seeing your doctor for routine well-child visits and sports physicals helps keep your child's medical records and health history up to date.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image1.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-           <div class="tab-pane" id="service-2">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>Camp Physicals</h3>
-                 <p>
-                  Also called pre-participation physicals, camp physical examinations are an essential part of registering children for camps.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image2.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-           <div class="tab-pane" id="service-3">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>Including Gyn Services</h3>
-                 <p>
-                  Our OB/GYNs offer expert care for women of all ages. Whether you're pregnant or need specialized gynecological treatment.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image3.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-           <div class="tab-pane" id="service-4">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>School Physicals</h3>
-                 <p>
-                  School physicals are wellness checkups that are required by most schools before a student can participate in sports and other activities.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image4.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-         </div>
-        </div>
+                <div class="row">
 
-        <div class="row" id="service2" style="display: none;">
-         <ul class="nav nav-tabs row d-flex">
-           <li class="nav-item col-3" data-aos="zoom-in">
-             <a class="nav-link active show" data-bs-toggle="tab" href="#service-5">
-               <i class="ri-gps-line"></i>
-               <h4 class="d-none d-lg-block">FAA exams</h4>
-             </a>
-           </li>
-           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
-             <a class="nav-link" data-bs-toggle="tab" href="#service-6">
-               <i class="ri-body-scan-line"></i>
-               <h4 class="d-none d-lg-block">Laboratory Services</h4>
-             </a>
-           </li>
-           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
-             <a class="nav-link" data-bs-toggle="tab" href="#service-7">
-               <i class="ri-sun-line"></i>
-               <h4 class="d-none d-lg-block">EKG’s</h4>
-             </a>
-           </li>
-           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
-             <a class="nav-link" data-bs-toggle="tab" href="#service-8">
-               <i class="ri-store-line"></i>
-               <h4 class="d-none d-lg-block">Well Child Care</h4>
-             </a>
-           </li>
-         </ul>
+                <div class="col-lg-3">
+                    <ul class="nav nav-tabs flex-column">
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Airport Transfer</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Hourly Car Rent</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Daily Basis Rent [ Inside Dhaka ]</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Daily Basis Rent [ Outside Dhaka ]</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Monthly Car Rent</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Office Pick & Drop</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-7">Inter District Pick & Drop</a>
+                    </li>
+                    <li class="nav-item zoom-hover">
+                        <a class="nav-link" data-bs-toggle="tab" href="#tab-8">Tour Package</a>
+                    </li>
+                    </ul>
+                </div>
 
-         <div class="tab-content" data-aos="fade-up">
-           <div class="tab-pane active show" id="service-5">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>FAA exams</h3>
-                 <p class="font-italic">
-                  An AME who knows you well is more likely to answer questions for you over the phone. Understand the three possible outcomes of an FAA medical examination.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image5.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-           <div class="tab-pane" id="service-6">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>Laboratory Services</h3>
-                 <p>
-                  Learn about medical tests, including what the tests are used for, why a doctor may order a test, how a test will feel, and what the results may mean.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image6.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-           <div class="tab-pane" id="service-7">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>EKG’s</h3>
-                 <p>
-                  Your doctor may suggest you get an electrocardiogram also called an EKG or ECG to check for signs of heart disease.
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image7.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-           <div class="tab-pane" id="service-8">
-             <div class="row">
-               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                 <h3>Well Child Care</h3>
-                 <p>
-                  Parents know who they should go to when their child is sick. But pediatrician visits are just as important for healthy children
-                 </p>
-               </div>
-               <div class="col-lg-12 order-1 order-lg-2 text-center service-bg" style="background-image: url(assets/img/service/image8.webp);height:500px;">
-               </div>
-             </div>
-           </div>
-         </div>
-        </div>
+                <div class="col-lg-9 mt-4 mt-lg-0">
+                    <div class="tab-content">
 
-         <div class="row mt-5 justify-content-center">
-          <button type="button" class="btn service-btn" id="service-btn1" style="margin-right: 15px;">1</button>
-          <button type="button" class="btn service-btn" id="service-btn2">2</button>
-        </div>
+                    <div class="tab-pane active show" id="tab-1">
+                        <div class="row">
+                        <div class="col-lg-7 details order-2 order-lg-1">
+                            <h3>Airport Transfer</h3>
+                            <p>
+                                Airport Transfer in Dhaka/Chittagong/Sylhet/Cox's Bazar/Jessore/Saidpur
+                            </p>
+                            <h3>Pick & Drop to and from Airport</h3>
+                            <p>
+                                Travelling to and from different airports; whether it is an international or national one, is always worrying.
+                                A certain degree of nervousness and frustration stay there no matter if it is a business travel, casual visits or holidays.
+                                Furthermore, the prices of transportation and the load of luggage can add additional trouble.
+                                <br><br>
+                                If you really want to lower down the price of transportation, reduce the tension of weighty luggage and pressure of travelling as a whole then a good Airport
+                                Shuttle option is actually effective for you.
+                                It is the finest mode of transportation.
+                                Icing on the cake is that if you are wandering about cutting your travel and parking expenses then these Shuttles are for you.
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/airport.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
 
-      </div>
-    </section>
+                    <div class="tab-pane" id="tab-2">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Hourly Car Rental</h3>
+                            <h3>Only for Travelling inside Dhaka Metro</h3>
+                            <p>
+                                If you are tired of conventional ways of traveling then you must embrace the contemporary ones. Why always depend on
+                                public transport services when you have better options like Hourly car rental services?
+                                When you have progressed a lot in other fields of your life, why not you’re traveling, trips and holidays too?
+                                <br><br>
+                                Actually these Hourly service is a wonderful and contemporary alternative for both individuals and tiny groups.
+                                You can easily rent the cars of your choice for visiting any spot you want.
+                                No matter whether you are here for a business meeting, get together, party, wedding or holidays, these cars will suffice all your expectations.
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/dhaka.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="tab-3">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Rent Without Fuel - Inside Dhaka</h3>
+                            <h3>Excluding Fuel & Driver Cost</h3>
+                            <p>
+                                If you have a day long program to attend inside or nearby Dhaka city then we have several options for you!!
+                                We are specialized in offering clean and modern vehicles to meet the needs of every purpose.
+                                <br><br>
+                                A full range of vehicles including Corolla, Axio, Allion, Premio, Town_Ace_Noah, X_Noah, Hiace and SUVs are available in our fleet.
+                                With takearide.com.bd's discounted car rental rates and NO mileage limits, you can meet all of your Official & Personal Transport requirements.
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/dhaka_2.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="tab-4">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Rent Without Fuel For Travelling Outside Dhaka</h3>
+                            <h3>Excluding Fuel & Driver Cost</h3>
+                            <p>
+                                Thinking about Renting a Car daily basis for exploring Bangladesh?
+                                A full range of vehicles including Corolla, Axio, Allion, Premio, Town_Ace_Noah, X_Noah, Hiace and SUVs are available in our fleet. With takearide.com.bd's discounted car rental rates and NO mileage limits,
+                                you can meet all of your Official & Personal Transport requirements.
+                                Our car will take you to 64 districts and 469 upazilas!
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/bangladesh.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="tab-5">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Long-Term & Monthly Car Rentals</h3>
+                            <p>
+                                Need a #Car for a #Month or more? Our Multi-Month Program is available on a full range of vehicles including #Axio,
+                                #Allion, #Premio, #Town_Ace_Noah, #X_Noah, #Hiace and #SUVs.
+                                <br><br>
+                                With takearide.com.bd's
+                                discounted car rental rates and NO mileage limits, you can meet all of your #Official & #Personal #Transport requirements!
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/month.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="tab-6">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Office Pick & Drop</h3>
+                            <h3>Smart Tranportation Solution for Office Going People</h3>
+                            <p>
+                                Cars are the most important and comfortable mode for commute of employees. Our state of the art Staff
+                                Transportation Solution is more than a conventional shuttle service;
+                                we offer need based personalized solutions on most competitive and cost-effective basis.
+                                <br><br>
+                                If you are looking for daily staff pick and drop services to reach office timely,
+                                takearide.com.bd conveniently gets you to a listing of best services in Dhaka city for the below routes .
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/office.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="tab-7">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Inter District Drop <br>Travel Anywhere in Bangladesh</h3>
+                            <h3>Our car will take you to 64 districts and 469 upazilas!</h3>
+
+                            <p>
+                                You can enjoy your travel anywhere in Bangladesh.
+                                <br>
+                                Whether you're visiting family and friends,
+                                or taking a business trip, you can rent luxury vehicles from us.
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/bangladesh_2.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="tab-8">
+                        <div class="row">
+                        <div class="col-lg-6 details order-2 order-lg-1">
+                            <h3>Go Travel with our Cars</h3>
+
+                            <p>
+                                Shopping to exploration, monuments to gardens, sightseeing spots to other destinations,
+                                everything will get accessible once you have Rented A Car from www.takearide.com.bd
+                            </p>
+                            <a href="javascript:(void)" target="_blank" class="resource-btn zoom-hover">Rent A Car!</a>
+                        </div>
+                        <div class="col-lg-5 text-center order-1 order-lg-2 resource-bg" style="background-image: url(/users/img/service/travel.jpg);border-radius:10px;">
+                        </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+
+                </div>
+
+            </div>
+        </section>
     <!-- End Services Section -->
 
     <!-- ======= strip Section ======= -->
-    <section id="portal-strip" class="strip">
-      <div class="container-fluid strip-container" data-aos="zoom-in">
-       <div class="row justify-content-center">
-        <div class="col-lg-8 col-11 text-center">
-          <h3><marquee scrollamount="8">Need access to your records? Get them in your patient portal!</marquee></h3>
-          <a class="strip-btn" href="#">Patient Portal</a>
-        </div>
-       </div>
-      </div>
-    </section>
-    <!-- End strip Section -->
-
-    <!-- ======= Insurance Section ======= -->
-    <section id="insurances" class="insurances section-bg">
-     <div class="container" data-aos="fade-up">
-      <div class="section-title">
-        <h2>Medical Insurance</h2>
-      </div>
-
-      <!-- Insurance Tabs -->
-      <div class="row feture-tabs" data-aos="fade-up">
-        <div class="col-lg-1"></div>
-       <div class="col-lg-4">
-         <img src="users/img/medicalinsurance.webp" class="img-fluid insurance-bg lazyload" alt="insurance">
-       </div>
-       <!-- Tab Content -->
-       <div class="col-lg-6">
-        <div class="tab-content">
-          <!-- tab1 -->
-          <div class="tab-pane fade show active" id="insurance1">
-           <div class="row align-self-center gy-4">
-                        <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                          <div class="insurance-box d-flex align-items-center">
-                           <img src="users/img/insurance/aetna.webp" class="img-fluid lazyload">
-                         </div>
-                       </div>
-
-                       <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                        <div class="insurance-box d-flex align-items-center">
-                         <img src="users/img/insurance/Ambetter.png" class="img-fluid lazyload">
-                       </div>
-                     </div>
-
-                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                      <div class="insurance-box d-flex align-items-center">
-                       <img src="users/img/insurance/avmed.webp" class="img-fluid lazyload">
-                     </div>
-                   </div>
-
-                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                    <div class="insurance-box d-flex align-items-center">
-                     <img src="users/img/insurance/cigna-logo-1.webp" class="img-fluid lazyload">
-                   </div>
-                 </div>
-
-                 <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                  <div class="insurance-box d-flex align-items-center">
-                   <img src="users/img/insurance/humana.webp" class="img-fluid lazyload">
-                 </div>
-               </div>
-
-               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="insurance-box d-flex align-items-center">
-                 <img src="users/img/insurance/medicaid.webp" class="img-fluid lazyload">
-               </div>
-             </div>
-
-             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="800">
-              <div class="insurance-box d-flex align-items-center">
-               <img src="users/img/insurance/simply.webp" class="img-fluid lazyload">
-             </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="900">
-              <div class="insurance-box d-flex align-items-center">
-               <img src="users/img/insurance/sunshine.webp" class="img-fluid lazyload">
-             </div>
-            </div>
-           </div>
-          </div>
-          <!-- tab1 -->
-          <!-- tab2 -->
-          <div class="tab-pane fade show" id="insurance2">
-           <div class="row align-self-center gy-4">
-               <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                 <div class="insurance-box d-flex align-items-center">
-                  <img src="users/img/insurance/aetna.webp" class="img-fluid lazyload">
+        <section id="portal-strip" class="strip">
+            <div class="container-fluid strip-container" data-aos="zoom-in">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-11 text-center">
+                <h3><marquee scrollamount="8">Skip the waiting on the phone and simply request a car online.</marquee></h3>
+                <a class="strip-btn" href="javascript:(void)">Browse Cars</a>
                 </div>
-              </div>
-
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-               <div class="insurance-box d-flex align-items-center">
-                <img src="users/img/insurance/avmed.webp" class="img-fluid lazyload">
-              </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-             <div class="insurance-box d-flex align-items-center">
-              <img src="users/img/insurance/humana.webp" class="img-fluid lazyload">
             </div>
             </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="800">
-             <div class="insurance-box d-flex align-items-center">
-              <img src="users/img/insurance/simply.webp" class="img-fluid lazyload">
-            </div>
-            </div>
-           </div>
-          </div>
-          <!-- tab2 -->
-          <!-- tab3 -->
-          <div class="tab-pane fade show" id="insurance3">
-           <div class="row align-self-center gy-4">
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                <div class="insurance-box d-flex align-items-center">
-                 <img src="users/img/insurance/Ambetter.webp" class="img-fluid lazyload">
-               </div>
-             </div>
-
-             <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-              <div class="insurance-box d-flex align-items-center">
-               <img src="users/img/insurance/cigna-logo-1.webp" class="img-fluid lazyload">
-             </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-              <div class="insurance-box d-flex align-items-center">
-               <img src="users/img/insurance/medicaid.webp" class="img-fluid lazyload">
-             </div>
-            </div>
-
-            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="900">
-              <div class="insurance-box d-flex align-items-center">
-               <img src="users/img/insurance/sunshine.webp" class="img-fluid lazyload">
-             </div>
-            </div>
-           </div>
-          </div>
-          <!-- tab3 -->
-        </div>
-       </div><!-- Tab Content -->
-       <div class="col-lg-1"></div>
-      </div>
-     </div>
-    </section>
-    <!-- End Insurances Section -->
-
-    <!-- ======= strip Section ======= -->
-    <section id="package-strip" class="strip">
-      <div class="container-fluid strip-container" data-aos="zoom-in">
-       <div class="row justify-content-center">
-        <div class="col-lg-8 col-11 text-center">
-          <h3><marquee scrollamount="8">Try our Resident package for 3 months.</marquee></h3>
-          <div><h3><a style="color: yellow;">No Payment or Commitments Required!</a></h3></div>
-          <a class="strip-btn" href="https://rtpmedicalsolution.com" target="_blank">Click Here!</a>
-        </div>
-       </div>
-      </div>
-    </section>
+        </section>
     <!-- End strip Section -->
 
     <!-- ======= Team ======= -->
-    <section id="team" class="team">
-      <div class="container">
+        {{-- <section id="team" class="team">
+            <div class="container">
 
-        <div class="section-title">
-          <h2>Our Doctors</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="users/img/doctors/doctors-1.webp" class="img-fluid lazyload" alt="doctor-1"></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Medical Officer</span>
-                <div class="social">
-                  <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
-                  <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                <div class="section-title">
+                <h2>Team</h2>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="users/img/doctors/doctors-2.webp" class="img-fluid lazyload" alt="doctor-2"></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Anesthesiologist</span>
-                <div class="social">
-                  <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
-                  <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                <div class="row">
+
+                <div class="col-lg-6">
+                    <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="users/img/doctors/doctors-1.webp" class="img-fluid lazyload" alt="doctor-1"></div>
+                    <div class="member-info">
+                        <h4>Walter White</h4>
+                        <span>Chief Medical Officer</span>
+                        <div class="social">
+                        <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
+                        <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="users/img/doctors/doctors-3.webp" class="img-fluid lazyload" alt="doctor-3"></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cardiology</span>
-                <div class="social">
-                  <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
-                  <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="users/img/doctors/doctors-2.webp" class="img-fluid lazyload" alt="doctor-2"></div>
+                    <div class="member-info">
+                        <h4>Sarah Jhonson</h4>
+                        <span>Anesthesiologist</span>
+                        <div class="social">
+                        <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
+                        <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="users/img/doctors/doctors-4.webp" class="img-fluid lazyload" alt="doctor-4"></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Neurosurgeon</span>
-                <div class="social">
-                  <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
-                  <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
-                  <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="users/img/doctors/doctors-3.webp" class="img-fluid lazyload" alt="doctor-3"></div>
+                    <div class="member-info">
+                        <h4>William Anderson</h4>
+                        <span>Cardiology</span>
+                        <div class="social">
+                        <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
+                        <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                    </div>
                 </div>
-              </div>
+
+                <div class="col-lg-6 mt-4">
+                    <div class="member d-flex align-items-start">
+                    <div class="pic"><img src="users/img/doctors/doctors-4.webp" class="img-fluid lazyload" alt="doctor-4"></div>
+                    <div class="member-info">
+                        <h4>Amanda Jepson</h4>
+                        <span>Neurosurgeon</span>
+                        <div class="social">
+                        <a href="javascript:(void)"><i class="ri-twitter-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-facebook-fill"></i></a>
+                        <a href="javascript:(void)"><i class="ri-instagram-fill"></i></a>
+                        <a href="javascript:(void)"> <i class="ri-linkedin-box-fill"></i> </a>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+
             </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
+        </section> --}}
     <!-- End Team -->
 
-    <!-- ======= strip Section ======= -->
-    <section id="review-strip" class="strip">
-      <div class="container-fluid strip-container" data-aos="zoom-in">
-       <div class="row justify-content-center">
-        <div class="col-lg-8 col-11 text-center">
-          <h3><marquee scrollamount="8">Collect and Distribute reviews from your patients from your RMS Listing!</marquee></h3>
-          <a class="strip-btn" href="https://rtprms.com/rtpmedsol" target="_blank">Take Me To My Listing</a>
-        </div>
-       </div>
-      </div>
-    </section>
-    <!-- End strip Section-->
-
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container">
+        <section id="contact" class="contact">
+            <div class="container">
 
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="row mt-5">
-
-          <div class="col-lg-4">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>7037 Rose Ave Suite B Orlando, FL 32810</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>support@reviewthatplace.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>888-503-1636</p>
-              </div>
-
+                <div class="section-title">
+                <h2>Contact</h2>
+                </div>
             </div>
 
-          </div>
+            <div class="container">
+                <div class="row mt-5">
 
-          <div class="col-lg-8 mt-5 mt-lg-0 d-flex align-self-center">
-           <iframe src="https://rtprms.com/Home/Reviews/62340" frameborder="0" scrolling="" ;="" data-aos="fade-up" data-aos-delay="100" style="width: 100%;height: 330px;"></iframe>
-          </div>
+                <div class="col-lg-12">
+                    <div class="info">
+                        <div class="row">
 
-        </div>
+                            <div class="col-lg-4">
+                                <div class="address zoom-hover">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h4>Location:</h4>
+                                    <p> 51 Siddheswari Rd, Dhaka 1217</p>
+                                </div>
+                            </div>
 
-      </div>
-    </section>
+                            <div class="col-lg-4">
+                                <div class="phone zoom-hover">
+                                    <i class="bi bi-phone"></i>
+                                    <h4>Call:</h4>
+                                    <p>02-58315626</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4">
+                                <div class="email zoom-hover">
+                                    <i class="bi bi-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>support@takearide.com</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                </div>
+
+            </div>
+        </section>
     <!-- End Contact Section -->
 
-  </main><!-- End #main -->
+</main>
+<!-- End #main -->
 
 @endsection
