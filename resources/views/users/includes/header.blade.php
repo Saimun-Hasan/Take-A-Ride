@@ -17,12 +17,12 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#resources">Services</a></li>
-          <li><a class="nav-link scrollto" href="#resources">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link scrollto active" href="/">Home</a></li>
+          <li><a class="nav-link scrollto" href="/#about">About</a></li>
+          <li><a class="nav-link scrollto" href="/#resources">Services</a></li>
+          <li><a class="nav-link scrollto" href="/#resources">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="/#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="/#contact">Contact</a></li>
 
           @auth
 
@@ -66,18 +66,3 @@
     </div>
   </header>
 <!-- End Header -->
-
-<!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container">
-      <h1 class="text-white font-weight-bold">
-            Need A<br>
-            <span class="car-text">
-                Car ?
-            </span>
-        </h1>
-      <h2 class="text-white font-weight-bold">We Offer The Best Cars In Affordable Prices!</h2>
-      <a href="tel:+8801959523513" class="btn-get-started scrollto">Call Now</a>
-    </div>
-  </section>
-<!-- End Hero -->

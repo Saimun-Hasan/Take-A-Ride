@@ -19,10 +19,7 @@ use App\Http\Controllers\UserEditController;
 
 //Users-Route
 Route::get('/', function () { return view('users.index'); })-> name('home');
-
-
-
-
+Route::get('/browse', function () { return view('users.rent.car'); })-> name('browse');
 
 
 //register-login-logout

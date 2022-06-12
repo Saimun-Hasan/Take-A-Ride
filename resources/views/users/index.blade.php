@@ -1,6 +1,22 @@
 @extends('users/layout')
 
 @section('main-content')
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <h1 class="text-white font-weight-bold">
+            Need A<br>
+            <span class="car-text">
+                Car ?
+            </span>
+        </h1>
+      <h2 class="text-white font-weight-bold">We Offer The Best Cars In Affordable Prices!</h2>
+      <a href="tel:+8801959523513" class="btn-get-started scrollto">Call Now</a>
+    </div>
+  </section>
+<!-- End Hero -->
+
 <!-- ======= Main Section ======= -->
 <main id="main">
 
@@ -10,7 +26,7 @@
 
                 <div class="row">
                 <div class="col-lg-4 d-flex align-items-stretch">
-                    <div class="content">
+                    <div class="content zoom-hover">
                     <h3>Having Trouble Renting A Car?</h3>
                     <p>
                         Skip the waiting on the phone and simply request a car online.
@@ -24,7 +40,7 @@
                     <div class="icon-boxes d-flex flex-column justify-content-center">
                     <div class="row">
                         <div class="col-xl-4 d-flex align-items-stretch">
-                        <div class="icon-box mt-4 mt-xl-0">
+                        <div class="icon-box mt-4 mt-xl-0 zoom-hover">
                             <img src="/users/img/icons/car_1.png" alt="" class="img-fluid mb-3">
                             <h4>Need a Car in Dhaka?</h4>
                             <p>Renting a Car is just few clicks away!</p>
@@ -34,7 +50,7 @@
                         </div>
                         </div>
                         <div class="col-xl-4 d-flex align-items-stretch">
-                        <div class="icon-box mt-4 mt-xl-0">
+                        <div class="icon-box mt-4 mt-xl-0 zoom-hover">
                             <img src="/users/img/icons/money_1.png" alt="" class="img-fluid mb-3">
                             <h4>Offers & <br>Packages</h4>
                             <p>Our Car Rental packages that will cover you well!</p>
@@ -44,7 +60,7 @@
                         </div>
                         </div>
                         <div class="col-xl-4 d-flex align-items-stretch">
-                        <div class="icon-box mt-4 mt-xl-0">
+                        <div class="icon-box mt-4 mt-xl-0 zoom-hover">
                             <img src="/users/img/icons/car_2.png" alt="" class="img-fluid mb-3">
                             <h4>Make Money From Your Car</h4>
                             <p>Rent your<br> car with us</p>
@@ -123,47 +139,52 @@
     <!-- ======= Clients Section ======= -->
         <section id="clients" class="clients section-bg pt-0">
 
+            @php
+                $cars = \App\Models\Cars::all();
+            @endphp
+
             <div class="container p-3" data-aos="fade-up">
                 <div class="section-title">
-                <h2>Top Rented Cars</h2>
+                    <h2>Top Rented Cars</h2>
                 </div>
-                <div class="clients-slider swiper-container">
-                    <div class="swiper-wrapper align-items-center mb-3">
-                        @php
-                            $cars = \App\Models\Cars::all();
-                        @endphp
 
-                        @foreach($cars as $cars)
 
-                            <div class="swiper-slide" style="margin: 30px !important">
-                                <div class="vehicle-card">
-                                    <div class="details">
-                                        <div class="thumb-gallery">
-                                            <img class="first" src="https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/wp-content/uploads/2017/03/2018-Bugatti-Chiron-117.jpg?crop=1xw:1xh;center,center&resize=480:*" />
-                                        </div>
-                                        <div class="info text-center">
-                                        <h3>{{ $cars -> car_name}}</h3>
-                                            <div class="price">
-                                                <span>Price Starting at</span>
-                                                <h4>{{ $cars -> car_price}}</h4>
+                    <div class="clients-slider swiper-container">
+                        <div class="swiper-wrapper align-items-center mb-3">
+
+                            @foreach($cars as $cars)
+
+                                <div class="swiper-slide" style="margin: 30px !important">
+                                    <div class="vehicle-card">
+                                        <div class="details">
+                                            <div class="thumb-gallery">
+                                                <img class="first" src="https://hips.hearstapps.com/amv-prod-cad-assets.s3.amazonaws.com/wp-content/uploads/2017/03/2018-Bugatti-Chiron-117.jpg?crop=1xw:1xh;center,center&resize=480:*" />
                                             </div>
-                                            <div class="ctas text-center">
-                                                <a href="#" class="btn btn-outline-primary col-12">Rent Now!</a>
-                                                <div style="clear:both;"></div>
-                                            </div>
-                                            <div class="desc">
-                                                <p>{{ $cars -> car_price}}</p>
+                                            <div class="info text-center">
+                                            <h3>{{ $cars -> car_name}}</h3>
+                                                <div class="price">
+                                                    <span>Price Starting at</span>
+                                                    <h4>{{ $cars -> car_price}}</h4>
+                                                </div>
+                                                <div class="ctas text-center">
+                                                    <a href="/browse" class="btn btn-outline-primary col-12">Rent Now!</a>
+                                                    <div style="clear:both;"></div>
+                                                </div>
+                                                <div class="desc">
+                                                    <p>{{ $cars -> car_description}}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                        @endforeach
+                            @endforeach
 
+                        </div>
+
+                        <div class="swiper-pagination mt-5"></div>
                     </div>
-                    <div class="swiper-pagination mt-5"></div>
-                </div>
+
             </div>
 
         </section>
